@@ -1,6 +1,6 @@
 # Compiler for the Instant Language for JVM and LLVM
 
-A compiler for the [Instant](https://www.mimuw.edu.pl/~ben/Zajecia/Mrj2023/instant-en.html) programming language, implemented in Haskell. Instant is a small, imperative language designed for initializing variables and performing various mathematical operations. The compiler generates both [LLVM](https://en.wikipedia.org/wiki/LLVM) and [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) code.
+A compiler for the [Instant](https://www.mimuw.edu.pl/~ben/Zajecia/Mrj2023/instant-en.html) programming language, implemented in Haskell. Instant is a small, imperative language designed for initializing variables and performing various mathematical operations. The compiler generates both [LLVM](https://en.wikipedia.org/wiki/LLVM) (Low Level Virtual Machine) and [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) (Java Virtual Machine) code.
 
 As an optimization, the order of operations on the subexpressions is arranged to minimize the stack size in the JVM, resulting in more efficient memory usage in the generated code.
 
